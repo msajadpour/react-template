@@ -1,0 +1,50 @@
+// BreakPoints :
+$smallmobile_Breakpoint: 375px;
+$mobile_Breakpoint: 425px;
+$tablet_Breakpoint: 768px;
+$small_laptop_Breakpoint: 1024px;
+$large_laptop_Breakpoint: 1440px;
+$extra_large_Breakpoint: 2560px;
+
+//Adjust Root Font Size for Different Screens
+// small Mobile
+@media (max-width: $smallmobile_Breakpoint) {
+  html {
+    font-size: 7px;
+  }
+}
+//Mobile Screen
+@media (min-width: $smallmobile_Breakpoint +1) and (max-width: $mobile_Breakpoint) {
+  html {
+    font-size: 7px;
+  }
+}
+
+//Tablet Screen
+@media (min-width: $mobile_Breakpoint+1) and (max-width: $tablet_Breakpoint) {
+  html {
+    font-size: 8px;
+  }
+}
+
+//HD Laptops Screen
+@media (min-width: $tablet_Breakpoint+1) and (max-width: $small_laptop_Breakpoint) {
+  html {
+    font-size: 9px;
+  }
+}
+
+//Full-HD Laptops Screen
+@media (min-width: $small_laptop_Breakpoint+1) and (max-width: $large_laptop_Breakpoint) {
+  html {
+    font-size: 10px;
+  }
+}
+
+// 4k Screens
+@media (min-width: $large_laptop_Breakpoint+1) and (max-width: $extra_large_Breakpoint) {
+  html {
+    font-size: 11px;
+  }
+}
+
