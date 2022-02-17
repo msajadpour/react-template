@@ -1,12 +1,11 @@
-import Todo from "./pages/todo/home/home";
+import React from "react";
+
+//components
+import PagesRouter from "./pages/index";
 
 //Main Component
 function App() {
-    return (
-        <>
-            <Todo />
-        </>
-    );
+    return <PagesRouter />;
 }
 
 export default App;
