@@ -1,10 +1,10 @@
-import Home from "./pages/home/home";
+import Todo from "./pages/todo/home/home";
 
 //Main Component
 function App() {
     return (
         <>
-            <Home />
+            <Todo />
         </>
     );
 }
