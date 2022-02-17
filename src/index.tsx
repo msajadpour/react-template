@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 // Styles
-import "../node_modules/bootstrap/dist/css/bootstrap.rtl.min.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./assets/scss/main.scss";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
